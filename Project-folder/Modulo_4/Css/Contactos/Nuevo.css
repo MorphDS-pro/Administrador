@@ -1,0 +1,41 @@
+.form-nuevo-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.form-nuevo-container button {
+    padding: 6px 15px;
+    font-size: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-nuevo-container button:hover {
+    background-color: #45a049;
+}
+
+.bttn-nuevo {
+    margin-right: 10px;
+}
+
+.bttn-nuevo i {
+    color: white;
+}
+
+.bttn-texto {
+    font-size: 14px;
+    color: #555;
+}
+
+.bttn-texto i {
+    margin-right: 8px;
+}

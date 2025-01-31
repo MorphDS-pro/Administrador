@@ -1,0 +1,38 @@
+/* Estilos para la paginación */
+#pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    align-items: center;
+}
+
+#pagination button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#pagination button:hover {
+    background-color: #45a049;
+}
+
+#pagination button:focus {
+    outline: none;
+    background-color: #2e7d32;
+}
+
+#pagination button:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+}
+
+.page-info {
+    font-size: 16px;
+    margin-right: 10px;
+}

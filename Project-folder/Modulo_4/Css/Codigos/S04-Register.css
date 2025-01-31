@@ -1,0 +1,117 @@
+.form-register-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.form-register-container h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.form-row-register {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.form-group-register {
+    width: 18%;
+    min-width: 200px;
+    margin-bottom: 15px;
+}
+
+.form-group-register label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group-register input{
+    width: 100%;
+    padding: 8px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.form-group-register select{
+    width: 100%;
+    padding: 8px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.form-group-register input:focus{
+    border-color: #4CAF50;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.8);
+    outline: none;
+}
+
+.form-group-register select:focus{
+    border-color: #4CAF50;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.8);
+    outline: none;
+}
+
+.bttn-container-register{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.btn-save-register {
+    padding: 6px 15px;
+    font-size: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-save-register:hover {
+    background-color: #45a049;
+}
+
+.btn-save-register i {
+    color: white;
+}
+
+.btn-reset-register {
+    padding: 6px 15px;
+    font-size: 12px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-reset-register:hover {
+    background-color: #c0392b;
+}
+
+.btn-reset-register i {
+    color: white;
+}
+
+#registerClinic, #registerDescription, #atribute, #registerPrice {
+    font-size: 16px;
+}

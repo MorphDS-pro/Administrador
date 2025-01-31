@@ -1,0 +1,113 @@
+.form-registrar-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.form-registrar-container h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.form-row-registrar {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.form-group-registrar {
+    width: 18%;
+    min-width: 200px;
+    margin-bottom: 15px;
+}
+
+.form-group-registrar label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group-registrar input{
+    width: 100%;
+    padding: 8px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.form-group-registrar select{
+    width: 100%;
+    padding: 8px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.form-group-registrar input:focus{
+    border-color: #4CAF50;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.8);
+    outline: none;
+}
+
+.form-group-registrar select:focus{
+    border-color: #4CAF50;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.8);
+    outline: none;
+}
+
+.bttn-container-registrar{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.btn-guardar-registrar {
+    padding: 6px 15px;
+    font-size: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-guardar-registrar:hover {
+    background-color: #45a049;
+}
+
+.btn-guardar-registrar i {
+    color: white;
+}
+
+.btn-cancelar-registrar {
+    padding: 6px 15px;
+    font-size: 12px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-cancelar-registrar:hover {
+    background-color: #c0392b;
+}
+
+.btn-cancelar-registrar i {
+    color: white;
+}

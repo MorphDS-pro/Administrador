@@ -1,0 +1,25 @@
+/* Estilos para el icono de eliminar */
+td i.fas.fa-trash {
+  color: #f44336; /* Color rojo */
+  font-size: 12px; /* Tamaño del icono */
+  cursor: pointer; /* Cambiar el cursor a mano al pasar por encima */
+  transition: color 0.3s ease; /* Efecto de transición al pasar el mouse */
+}
+
+/* Estilo al pasar el mouse sobre el icono */
+td i.fas.fa-trash:hover {
+  color: #d32f2f; /* Color rojo más oscuro al pasar el mouse */
+}
+
+/* Estilos para el botón de eliminar (opcional) */
+.delete-btn {
+  background: none; /* Elimina el fondo del botón */
+  border: none; /* Elimina el borde del botón */
+  padding: 0; /* Elimina el padding */
+  cursor: pointer; /* Mantener el cursor como mano */
+}
+
+/* Estilo al pasar el mouse sobre el botón */
+.delete-btn:hover {
+  opacity: 0.7; /* Efecto de opacidad en hover */
+}

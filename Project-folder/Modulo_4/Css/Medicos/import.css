@@ -1,0 +1,148 @@
+/* Contenedor principal para la importación */
+.import-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    z-index: 1000;
+    visibility: hidden; /* Oculto por defecto */
+    opacity: 0; /* Invisibilidad inicial */
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Mostrar el contenedor cuando no esté oculto */
+.import-container:not(.hidden) {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Ocultar el contenedor */
+.import-container.hidden {
+    display: none;
+}
+
+/* Contenedor interno del formulario */
+.import-content {
+    position: relative; /* Necesario para posicionar el botón de cierre dentro del contenedor */
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Botón de cierre (X) */
+.close-btn-import {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.close-btn-import:hover {
+    color: #f44336;
+}
+
+/* Grupo de formulario */
+.form-group-import {
+    margin-bottom: 15px;
+}
+
+/* Etiquetas */
+label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Texto adicional */
+span {
+    display: block;
+    font-size: 10px;
+    color: #888;
+    margin-top: 5px;
+}
+
+/* Input de archivo */
+.file-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: border-color 0.3s ease;
+}
+
+.file-input:hover {
+    border-color: #007bff;
+}
+
+/* Botón de importar */
+.btn-import {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.btn-import:hover {
+    background-color: #0056b3;
+}
+
+/* Botón de cancelar */
+.btn-cancelar-import {
+    width: 100%;
+    padding: 12px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn-cancelar-import:hover {
+    background-color: #d32f2f;
+}
+
+/* Estilo específico para 'Importado por' */
+#import-usuario {
+    margin-top: 10px;
+}
+
+#import-usuario label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #555;
+}
+
+#import-usuario span {
+    font-size: 10px;
+    color: #333;
+}

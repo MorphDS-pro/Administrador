@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .delete-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+  }
+  
+  .delete-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  .delete-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  
+#btn-confirmar-eliminar{
+  background-color: #4CAF50;
+  color: white;
+}
+
+#btn-confirmar-eliminar:hover{
+  background-color: #45a049;
+}
+
+
+
+#btn-confirmar-eliminar i {
+  color: white;
+}
+
+  #btn-cancelar-eliminar {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  #btn-cancelar-eliminar:hover {
+    background-color: #c0392b;
+  }
+
+  #btn-cancelar-eliminar i {
+    color: white;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
