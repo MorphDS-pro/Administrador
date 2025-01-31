@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Pacientes</title>
+  <link rel="stylesheet" href="Css/Ingreso/EstiloGeneral.css">
+  <link rel="stylesheet" href="Css/Ingreso/Registrar.css">
+  <link rel="stylesheet" href="Css/Ingreso/Tabla.css">
+  <link rel="stylesheet" href="Css/Ingreso/Download.css">
+</head>
+<body>
+
+    <div class="container" id="main-container">
+        <h2 id="register-title">Formulario de registro</h2>
+        <div class="form-registrar-container" id="formRegistrarContainer">
+            <p>Datos del paciente</p>
+
+            <div class="form-row-registrar" id="register-row"> 
+                <div class="form-group-registrar" id="register-usuario">
+                    <label for="registrarUsuario" style="font-size: 12px;">Digitado por:</label>
+                    <span id="registrarUsuario" style="font-size: 10px;"></span>
+                </div>
+                <div class="form-group-registrar" id="register-company">
+                    <label for="registrarEmpresas">Admisión</label>
+                    <input type="text" id="registrarEmpresas" placeholder="Ingrese el nombre de la empresa" required>
+                </div>  
+                <div class="form-group-registrar" id="register-rut">
+                    <label for="registrarRut">Nombre del paciente</label>
+                    <input type="text" id="registrarRut" placeholder="Ingrese el RUT de la empresa" required>
+                </div>  
+                <div class="form-group-registrar" id="register-rut">
+                    <label for="registrarRut">Médico</label>
+                    <input type="text" id="registrarRut" placeholder="Ingrese el RUT de la empresa" required>
+                </div>  
+                <div class="form-group-registrar" id="register-rut">
+                    <label for="registrarRut">Fecha de cirugía</label>
+                    <input type="text" id="registrarRut" placeholder="Ingrese el RUT de la empresa" required>
+                </div> 
+            </div> 
+        </div>   
+
+        <div class="form-registrar-container" id="formRegistrarContainer">
+            <p>Consumo</p>
+            <div class="form-row-registrar" id="register-row"> 
+                <div class="form-group-registrar" id="register-company">
+                    <label for="registrarEmpresas">Descripción</label>
+                    <input type="text" id="registrarEmpresas" placeholder="Ingrese el nombre de la empresa" required>
+                </div>  
+                <div class="form-group-registrar" id="register-rut">
+                    <label for="registrarRut">Cantidad</label>
+                    <input type="text" id="registrarRut" placeholder="Ingrese el RUT de la empresa" required>
+                </div>  
+                <div class="form-group-registrar" id="register-rut">
+                    <label for="registrarRut">Proveedor</label>
+                    <input type="text" id="registrarRut" placeholder="Ingrese el RUT de la empresa" required>
+                </div>  
+                <div class="form-group-registrar" id="register-rut">
+                    <label for="registrarRut">Precio</label>
+                    <input type="text" id="registrarRut" placeholder="Ingrese el RUT de la empresa" required>
+                </div> 
+
+                <div class="form-group-registrar" id="register-buttons">
+                    <div class="bttn-container-registrar" id="register-button-container">
+                        <button type="submit" class="btn-guardar-registrar" id="btnGuardar"><i class="fas fa-save"></i> Ingresar</button>
+                        <button type="reset" class="btn-cancelar-registrar" id="btnCancelar"><i class="fas fa-times"></i> Limpiar</button>
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+        <div class="table-container">
+            <table id="registroTabla">
+              <thead>
+                <tr>
+                  <th>Fecha Creación</th>
+                  <th>Usuario</th>
+                  <th>Referencia</th>
+                  <th>Admisión</th>
+                  <th>Paciente</th>
+                  <th>Médico</th>
+                  <th>Fecha CX</th>
+                  <th>Proveedor</th>
+                  <th>Código</th>
+                  <th>Descripción</th>
+                  <th>Cantidad</th>
+                  <th>Precio</th>
+                  <th>Atributo</th>
+                </tr>
+              </thead>
+              <tbody id="tablaCuerpo">
+                <!-- Datos ingresados se agregarán aquí -->
+              </tbody>
+            </table>
+          </div>
+
+          <div class="download-container" id="downloadContainer"> 
+            <button id="bttnDownload" class="bttn-download">Guardar consumos <i class="fas fa-download"></i></button>
+        </div>
+    </div>
+  <script src=""></script>
+</body>
+</html>

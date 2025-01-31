@@ -1,0 +1,58 @@
+.download-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bttn-download {
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.bttn-download i {
+    color: white;
+}
+
+.bttn-download:hover {
+    background-color: #45a049;
+}
+
+.bttn-download:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.bttn-import {
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.bttn-import i {
+    color: white;
+}
+
+.bttn-import:hover {
+    background-color: #45a049;
+}
+
+.bttn-import:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}

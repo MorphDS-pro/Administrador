@@ -1,0 +1,41 @@
+.table-container {
+    margin-top: 20px;
+    width: 100%;
+    overflow-x: auto; /* Para permitir desplazamiento horizontal si es necesario */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  td {
+    background-color: #ffffff;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: #f9f9f9;
+  }
+  
+  td:first-child, th:first-child {
+    text-align: center;
+  }
+  
+  td:nth-child(3), td:nth-child(4), th:nth-child(3), th:nth-child(4) {
+    width: 150px; /* Puedes ajustar el tamaño de las columnas de Admisión y Paciente */
+  }
+  
