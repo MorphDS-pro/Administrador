@@ -1,0 +1,64 @@
+/* Estilo para el contenedor del sidebar-header */
+.sidebar-header {
+    padding: 20px;
+    background-color: white; /* Color de fondo del encabezado del sidebar */
+    color: #333;
+    text-align: center; /* Centra el contenido del encabezado */
+    font-size: 18px;
+    border-bottom: 2px solid #cacaca; /* Añade una línea de separación */
+}
+
+/* Estilo para la lista dentro del sidebar-header */
+.sidebar-header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo para los elementos de la lista */
+.sidebar-header ul li {
+    padding: 10px 0; /* Espaciado en cada ítem */
+    text-align: left; /* Alineación del texto hacia la izquierda */
+}
+
+/* Estilo para los enlaces dentro del sidebar */
+.sidebar-header ul li a {
+    color: #333; /* Color del texto */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    font-size: 18px; /* Tamaño del texto */
+    display: flex;
+    align-items: center; /* Centra verticalmente el ícono y el texto */
+    padding: 10px 15px; /* Añade espacio alrededor del enlace */
+    transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+    border-radius: 10px;
+}
+
+/* Estilo para los enlaces cuando el ratón está sobre ellos */
+.sidebar-header ul li a:hover {
+    background-color: #d8d8d8; /* Cambia el fondo cuando se pasa el ratón por encima */
+    color: #333; /* Cambia el color del texto al pasar el ratón */
+    border-radius: 10px;
+}
+
+/* Estilo para el ícono dentro del enlace */
+.sidebar-header ul li a i {
+    color: #4CAF50;
+    margin-right: 10px; /* Añade espacio entre el ícono y el texto */
+    font-size: 20px; /* Tamaño del ícono */
+}
+
+/* Ajustes para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .sidebar-header {
+        padding: 15px;
+    }
+
+    .sidebar-header ul li a {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+
+    .sidebar-header ul li a i {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,194 @@
+.user-icon {
+    width: 40px;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.user-icon img {
+    background-color: transparent;
+    width: 50px; /* Ajusta el tamaño */
+    height: 50px; /* Ajusta el tamaño */
+    border-radius: 50%; /* Si deseas que la imagen sea circular */
+}
+
+/* Nombre de usuario */
+.user-name {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* Estilo del logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+/* Imagen dentro del logo */
+.logo-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Estilo de la fecha */
+.date {
+    font-size: 16px;
+    color: #333;
+    margin-right: 15px;
+}
+
+/* Estilo del botón de logout */
+.logout-btn {
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+/* Icono dentro del botón de logout */
+.logout-btn i {
+    margin-right: 8px;
+}
+
+/* Hover en el botón de logout */
+.logout-btn:hover {
+    color: #007bff;
+}
+
+/* Media Queries para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 10px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    /* Botón de menú en pantallas pequeñas */
+    .menu-btn {
+        font-size: 24px;
+        margin-right: 10px;
+    }
+
+    /* Icono de usuario en pantallas pequeñas */
+    .user-icon {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+        margin-right: 5px;
+    }
+
+    /* Nombre de usuario en pantallas pequeñas */
+    .user-name {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    /* Logo en pantallas pequeñas */
+    .logo {
+        font-size: 20px;
+        flex-grow: 1;
+        justify-content: flex-start;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    /* Imagen del logo en pantallas pequeñas */
+    .logo-img {
+        width: 25px;
+        height: 25px;
+        margin-right: 8px;
+    }
+
+    /* Fecha en pantallas pequeñas */
+    .date {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    /* Botón de logout en pantallas pequeñas */
+    .logout-btn {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    /* Confirmación de logout en pantallas pequeñas */
+    .logout-confirmation {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Adaptación aún más para pantallas más pequeñas (móviles) */
+    .header {
+        padding: 5px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Botón de menú más pequeño */
+    .menu-btn {
+        font-size: 20px;
+    }
+
+    /* Icono de usuario más pequeño */
+    .user-icon {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    /* Nombre de usuario más pequeño */
+    .user-name {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    /* Logo en pantallas más pequeñas */
+    .logo {
+        font-size: 18px;
+        margin-left: 5px;
+    }
+
+    /* Imagen del logo más pequeña */
+    .logo-img {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    /* Fecha más pequeña */
+    .date {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    /* Botón de logout en pantallas pequeñas */
+    .logout-btn {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    /* Confirmación de logout en pantallas más pequeñas */
+    .logout-confirmation {
+        width: 100%;
+        padding: 5px;
+    }
+}
