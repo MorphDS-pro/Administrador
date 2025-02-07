@@ -1,0 +1,169 @@
+.user-icon {
+    width: 40px;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.user-icon img {
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-name {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+.logo-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.date {
+    font-size: 16px;
+    color: #333;
+    margin-right: 15px;
+}
+
+.logout-btn {
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.logout-btn i {
+    margin-right: 8px;
+}
+
+.logout-btn:hover {
+    color: #007bff;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 10px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .menu-btn {
+        font-size: 24px;
+        margin-right: 10px;
+    }
+
+    .user-icon {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+        margin-right: 5px;
+    }
+
+    .user-name {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .logo {
+        font-size: 20px;
+        flex-grow: 1;
+        justify-content: flex-start;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .logo-img {
+        width: 25px;
+        height: 25px;
+        margin-right: 8px;
+    }
+
+    .date {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .logout-btn {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .logout-confirmation {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        padding: 5px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-btn {
+        font-size: 20px;
+    }
+
+    .user-icon {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .user-name {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    .logo {
+        font-size: 18px;
+        margin-left: 5px;
+    }
+
+    .logo-img {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .date {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    .logout-btn {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .logout-confirmation {
+        width: 100%;
+        padding: 5px;
+    }
+}

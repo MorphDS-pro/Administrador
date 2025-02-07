@@ -1,0 +1,56 @@
+.submenu {
+    list-style-type: none;
+    background-color: white;
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 30px;
+    width: 150px;
+}
+
+.submenu li a {
+    padding: 2px 6px;
+    color: #666;
+    font-size: 12px;
+}
+
+.submenu li a:hover {
+    background-color: #16a085;
+    color: white;
+    border-radius: 10px;
+}
+
+.submenu li {
+    padding: 0px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.submenu li a {
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 2px 6px;
+}
+
+.submenu li a:hover {
+    background-color: #ececec;
+    border-radius: 10px;
+}
+
+.submenu li i {
+    font-size: 14px;
+    margin-right: 10px;
+    color: #333;
+}
+
+.submenu li + li {
+    margin-top: 0px;
+}
+
+.fas.fa-caret-right {
+    color: #4CAF50;
+}
