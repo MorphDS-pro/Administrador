@@ -1,0 +1,175 @@
+.edit-modal span {
+    font-size: 18px;
+    font-weight: bold; 
+}
+
+.edit-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1001;
+    width: 90%;
+    max-width: 500px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.edit-modal.visible {
+    display: block;
+}
+
+.edit-modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.edit-modal-overlay.visible {
+    display: block;
+}
+
+.edit-modal .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+}
+
+.edit-modal .close-btn:hover {
+    color: red;
+}
+
+.edit-modal input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.edit-modal input:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.8);
+    outline: none;
+}
+
+.edit-modal h2, .edit-modal p {
+    font-size: 18px; 
+    margin: 5px 0;
+    display: inline-block;
+    white-space: nowrap; 
+    padding-right: 10px;
+}
+
+.edit-modal .edit-modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.edit-modal .edit-modal-header p {
+    margin-right: 20px; 
+}
+
+.edit-modal .edit-modal-content {
+    margin-top: 20px; 
+}
+
+.edit-modal-actions {
+    margin-top: 20px; 
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+#saveChangesButton {
+    padding: 6px 15px;
+    font-size: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#saveChangesButton:hover {
+    background-color: #45a049;
+}
+
+
+#saveChangesButton i {
+    color: white;
+}
+
+#cancelButton {
+    padding: 6px 15px;
+    font-size: 12px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cancelButton:hover {
+    background-color: #c0392b;
+}
+
+#cancelButton i {
+    color: white;
+}
+
+#editModalTitle{
+    color: #3498db;   
+}
+#editModalCodeValue, #editModalDescriptionValue, #editModalProviderName {
+    color: #e74c3c;
+    font-size: 16px;
+}
+
+.edit-modal-content p {
+    color: #3498db;
+}
+
+
+#edit-status {
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px; 
+    background-color: #3498db2d; 
+}
+
+#edit-status label {
+    font-weight: bold;
+    display: block; 
+    margin-bottom: 8px; 
+}
+
+.radio-container {
+    display: flex;
+    gap: 15px;
+}
+
+#editModalProviderName {
+    color: #e74c3c;
+    font-size: 16px;
+    word-wrap: break-word; 
+    white-space: normal;   
+    word-break: break-word; 
+}
