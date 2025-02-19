@@ -1,0 +1,47 @@
+.user-container {
+  position: relative;
+  display: inline-block;
+  z-index: 110;
+}
+
+.options-container {
+  position: absolute;
+  top: 100%;
+  left: 220%; 
+  transform: translateX(-50%);
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 230px;
+  z-index: 105;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.options-container.hidden {
+  display: none;
+}
+
+.sidebar {
+  z-index: 100;
+}
+
+.options-container button,
+.options-container a {
+  color: #333;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: left; 
+  background: none; 
+}
+
+.options-container button:hover,
+.options-container a:hover {
+  background-color: #dadada;
+}
